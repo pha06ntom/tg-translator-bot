@@ -1,0 +1,8 @@
+telegram_token: ""
+openai_api_key: ""
+openai_model: "gpt-5.2"
+
+database_url: ""
+
+admin_user_ids:
+  - 123456789
