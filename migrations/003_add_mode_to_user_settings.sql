@@ -1,0 +1,6 @@
+BEGIN;
+
+ALTER TABLE user_settings
+ADD COLUMN IF NOT EXISTS mode TEXT NOT NULL DEFAULT 'default';
+
+COMMIT;

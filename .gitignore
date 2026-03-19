@@ -1,0 +1,22 @@
+# binaries
+bin/
+dist/
+
+# local configs and secrets
+config.yaml
+config.docker.yaml
+.env
+
+# editor / system
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# logs
+*.log
+
+# docker
+postgres_data/
+
+.docx
